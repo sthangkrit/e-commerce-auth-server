@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce-auth-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/CSBlockchainKmitl/e-commerce-auth-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/CSBlockchainKmitl/e-commerce-auth-server/issues"
+  },
+  "homepage": "https://gitlab.com/CSBlockchainKmitl/e-commerce-auth-server#README",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "mssql": "^6.0.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
